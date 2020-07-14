@@ -17,7 +17,6 @@ notes：题目的意思应该是质数因子，因为8的因子有1,2,4,8，显�
 # -*- coding:utf-8 -*-
 class Solution:
     def GetUglyNumber_Solution(self, index):
-        # write code here
         if index < 1:
             return 0
         res = [1]
